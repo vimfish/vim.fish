@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vim.<>< | terminal;</title>
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/terminal.css" />
+    <link href="static/terminal.ico" rel="icon" type="image/x-icon" />
+    <script src="static/js/internet-time.js" defer></script>
+    <script src="static/js/stats.js" defer></script>
+    <script src="static/js/terminal.js" defer></script>
+  </head>
+
+  <body>
+    <div class="crt"></div>
+
+    <main>
+      <div class="container">
+        <div class="col one">
+          <marquee class="divider">♡ 2026 <>< - Server 0451</marquee>
+          <div>
+            <div class="divider">
+              <span>time:</span>
+              <a href="https://internet-ti.me/" target="_blank"
+                ><span id="internet-time">@000</span></a
+              >
+              <p id="view-counter">views: ---</p>
+              <p id="last-updated">last updated: ---</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col two" id="terminal">
+          <pre id="ascii">Binary Integrated Terminal System (BITS)</pre>
+          <pre id="instructions"></pre>
+          <pre id="output"></pre>
+          <div id="prompt">
+            <span id="command-input"></span
+            ><span id="cursor" class="blink"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

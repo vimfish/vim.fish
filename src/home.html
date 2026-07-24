@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vim.<>< | home;</title>
+    <link rel="stylesheet" href="styles/utility.css" />
+    <link rel="stylesheet" href="styles/gui.css" />
+
+    <link href="static/img/gfx/icon.gif" rel="icon" type="image/x-icon" />
+
+    <script src="static/js/web-components.js" defer></script>
+    <script src="static/js/internet-time.js" defer></script>
+  </head>
+
+  <body>
+    <!--#include file="includes/header.html" -->
+
+    <main>
+      <div class="flex-between">
+        <section class="w-twothirds text-justify pr-2">
+          <img style="width: 4rem" src="static/img/me.jpg" alt="me" />
+          <p>hi! i'm vim!</p>
+        </section>
+
+        <br />
+        <section
+          class="justify-between flex-col w-third pl-2 border-left gap-1"
+        >
+          get in touch:
+          <a
+            href="https://vimtriloquist.itch.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="highlight">itch</span>: play my games!</a
+          >
+          <a
+            href="https://bsky.app/profile/vim.fish"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="highlight">bsky</span>: @vim.fish</a
+          >
+          <a href="mailto:hi@vim.fish" target="_blank" rel="noopener noreferrer"
+            ><span class="highlight">email</span>: hi@vim.fish</a
+          >
+        </section>
+      </div>
+
+      <hr />
+
+      <div class="flex-between">
+        <section class="w-third pr-2">
+          <img
+            style="aspect-ratio: 4/3"
+            src="static/img/gfx/clippy.gif"
+            alt="clippy"
+          />
+          <p class="highlight">did you know:</p>
+          <p>
+            100% of visitors of this site are
+            <span class="rainbow">gay</span>.
+          </p>
+        </section>
+
+        <section class="w-twothirds pl-2 border-left">
+          <div class="block" id="statuscafe">
+            <div class="flex-between">
+              <div id="statuscafe-username">vimtriloquist</div>
+              <a href="https://status.cafe/users/vimtriloquist" target="_blank">
+                <img
+                  src="https://status.cafe/users/vimtriloquist/badge.png"
+                  alt="Status Cafe Profile"
+                />
+              </a>
+            </div>
+            <div id="statuscafe-content">---</div>
+          </div>
+          <script
+            src="https://status.cafe/current-status.js?name=vimtriloquist"
+            defer
+          ></script>
+        </section>
+      </div>
+
+      <hr />
+
+      <p>website updates:</p>
+
+      <section class="scrollbox">
+        <p><b>2026-07-24</b> - registered vim.fish domain.</p>
+        <p><b>2026-07-18</b> - website start.</p>
+      </section>
+
+      <div style="margin-bottom: 1ex"></div>
+
+      <section>
+        <marquee>
+          <a href="https://nekoweb.org/" target="_blank">
+            <img src="static/img/buttons/nekoweb.gif" />
+          </a>
+          <a href="https://ava.nekoweb.org/" target="_blank">
+            <img src="static/img/buttons/ava.gif" />
+          </a>
+          <a href="https://blog.avas.space" target="_blank">
+            <img src="static/img/buttons/avablog.gif" alt="Blog button" />
+          </a>
+          <a href="https://dakota.nekoweb.org/" target="_blank">
+            <img src="static/img/buttons/kota.gif" />
+          </a>
+          <img src="static/img/buttons/no-ai.png" width="88px" height="31px" />
+        </marquee>
+      </section>
+    </main>
+
+    <hr />
+
+    <!--#include file="includes/footer.html" -->
+  </body>
+</html>

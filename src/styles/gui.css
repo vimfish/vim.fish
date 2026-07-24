@@ -1,0 +1,196 @@
+@import url("globals.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--primary);
+  background: var(--background);
+  font-family: var(--font);
+  max-width: var(--max-width);
+  height: 100%;
+  padding: 1ex;
+  margin: auto;
+}
+
+pre {
+  margin: 0;
+}
+
+hr {
+  border-color: var(--primary);
+  margin: 2ex 0;
+}
+
+nav > a,
+nav > ul > li > a {
+  color: var(--primary);
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+section > img {
+  width: 4rem;
+  float: left;
+  margin-right: 1rem;
+  aspect-ratio: 1/1;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+main {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+article > h2 {
+  color: var(--secondary);
+}
+
+.scrollbox {
+  height: 5rem;
+  overflow-y: scroll;
+  border: 2px dashed var(--red);
+  padding: 0.5rem;
+}
+
+.scrollbox b {
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.highlight {
+  color: var(--secondary);
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+#internet-time {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.px-1 {
+  padding: 0 1ex;
+}
+
+.pl-1 {
+  padding-left: 1ex;
+}
+
+.pr-1 {
+  padding-right: 1ex;
+}
+
+.px-2 {
+  padding: 0 2ex;
+}
+
+.pl-2 {
+  padding-left: 2ex;
+}
+
+.pr-2 {
+  padding-right: 2ex;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.gap-1 {
+  gap: 1ex;
+}
+
+.gap-2 {
+  gap: 2ex;
+}
+
+.mw-quarter {
+  max-width: 25%;
+}
+
+.mw-third {
+  max-width: 33%;
+}
+
+.mw-half {
+  max-width: 50%;
+}
+
+.w-quarter {
+  max-width: 25%;
+  width: 25%;
+}
+
+.w-third {
+  max-width: 33%;
+  width: 33%;
+}
+
+.w-half {
+  max-width: 50%;
+  width: 50%;
+}
+
+.w-twothirds {
+  max-width: 66%;
+  width: 66%;
+}
+
+.border-left {
+  border-left: 2px solid var(--primary);
+}
+
+.border-right {
+  border-right: 2px solid var(--primary);
+}

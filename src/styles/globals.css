@@ -1,0 +1,24 @@
+:root {
+  --background: #0f060d;
+  --foreground: #222129;
+  --primary: #ffa86a;
+  --secondary: #d87093;
+  --tertiary: #98fb98;
+  --red: #ff5b7b;
+  --max-width: 140ex;
+  --font: "Monogram", monospace;
+}
+
+@font-face {
+  font-family: "Monogram";
+  src: url("../static/fonts/monogram-extended.ttf") format("truetype");
+}
+
+* {
+  font-size: 24px;
+}
+
+#statuscafe {
+  padding: 0.5em;
+  border: 2px dashed var(--secondary);
+}
