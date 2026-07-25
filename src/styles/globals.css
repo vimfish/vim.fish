@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Monogram";
-  src: url("../static/fonts/monogram-extended.ttf") format("truetype");
+  src: url("../fonts/monogram-extended.ttf") format("truetype");
 }
 
 * {

@@ -40,7 +40,7 @@ const socials = `<article><p><span class="highlight">bsky</span>: <a href="https
 </p></article>`;
 
 const neofetch = `<article style="display: flex; gap: 1rem;">
-<img style="align-self: center;" width="270" height="270" src="/static/img/cube.jpg" />
+<img style="align-self: center;" width="270" height="270" src="/img/gfx/cube.jpg" />
 <p><span class="highlight">vimtriloquist</span>@<span>vim.fish</span><br>------------------
 <span class="highlight">Usernames</span>: vimtriloquist / vim
 <span class="highlight">Pronouns</span>: they/them
