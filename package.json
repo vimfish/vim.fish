@@ -1,0 +1,15 @@
+{
+  "name": "vim.fish",
+  "version": "1.0.0",
+  "description": "<><",
+  "license": "ISC",
+  "author": "vim",
+  "type": "commonjs",
+  "scripts": {
+    "serve": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ssi": "^0.1.5"
+  }
+}

@@ -3,7 +3,6 @@ async function getLibreFmNowPlaying() {
     "https://libre.fm/2.0/?method=user.getrecenttracks&user=vimtriloquist&format=json",
   ).then((x) => x.json());
 
-  console.log(librefm.recenttracks.track);
   const artist = librefm.recenttracks.track[0].artist["#text"];
   const song = librefm.recenttracks.track[0].name;
 
