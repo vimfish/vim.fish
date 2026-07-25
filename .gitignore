@@ -1,6 +1,3 @@
 # Used only for local SSI support
 node_modules/
-server/
 tmp/
-package-lock.json
-package.json
